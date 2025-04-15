@@ -2,6 +2,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="agnoster"
 
+export DEFAULT_USER="nakamurashun"
+prompt_context(){}
+
 # プラグイン
 plugins=( 
     git
